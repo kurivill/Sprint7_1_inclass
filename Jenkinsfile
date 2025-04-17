@@ -4,6 +4,7 @@ pipeline {
     environment {
         SONARQUBE_SERVER = 'SonarQubeServer'  // The name of the SonarQube server configured in Jenkins
         SONAR_TOKEN = 'sqp_6b5434b57a577be89d2879a435a0e7917efea3d2' // Store the token securely
+        DOCKERHUB_REPO = 'villeaku/inclasssprint7'
         IMAGE_NAME = 'villeaku/InclassSprint7'
         IMAGE_TAG = 'latest'
     }
